@@ -1,0 +1,76 @@
+/* My name is Oliver */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .to-do-list {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .to-do-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .to-do-list input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .to-do-list button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9; /* 灰色背景 */
+    margin-bottom: 5px;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .task:last-child {
+    margin-bottom: 0;
+  }
+  
+  .task span {
+    flex-grow: 1;
+    margin: 0 10px; /* 为任务名称添加统一的内边距 */
+  }
+  
+  .task button {
+    background-color: transparent;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    margin: 0 5px; /* 为按钮添加统一的内边距 */
+  }
+  
+  .task button.remove {
+    color: red;
+  }
+  
+  .task button.complete {
+    color: green;
+  }
+.qw{display: flex;
+    justify-content: center;
+    align-items: center;}
